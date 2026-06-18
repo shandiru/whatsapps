@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Env files — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Build output
+frontend/dist/
+
+# WhatsApp session cache — local auth state, regenerated per machine
+backend/.wwebjs_auth/
+backend/.wwebjs_cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
